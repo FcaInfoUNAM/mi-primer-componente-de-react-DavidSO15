@@ -1,0 +1,9 @@
+¿De dónde sale la etiqueta Navigation?
+La etiqueta <Navigation /> que aparece en el archivo my-app/src/App.jsx es un componente personalizado de React que fue importado desde otro archivo. Es decir significa que Navigation no es una etiqueta HTML nativa, sino un componente React definido por el usuario. Su definición está en el archivo Navigation.jsx, y es reutilizado dentro de App.jsx.
+
+
+2.3 Si te das cuenta recibe 2 parametros, explica en entregable.txt cómo se recibieron esos parametros
+la función Navigation está definida como un componente funcional de React que recibe un objeto de propiedades (props).Esto significa que el componente espera recibir dos props llamadas srcImg y alt.
+
+ ¿donde se importan los archivos css, las imagenes y cómo es que se importa un componente?
+ En el archivo App.jsx, los archivos CSS, imágenes y componentes se importan utilizando la instrucción import.
